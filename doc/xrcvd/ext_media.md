@@ -1,18 +1,18 @@
 # Media Info Summary Command
 
 New command:
-`show interface transceiver *`
+`show interface transceiver summary *`
 
-Where * can be 'summary' or the specific interface
+Where * can be nil or the specific interface
 
 Examples:
 `show interface transceiver summary`
 This shows for all interfaces as show below.
 
-`show interface transceiver Ethernet6`
+`show interface transceiver summary Ethernet6`
 This shows for all Ethernet6.
 
-`show interface transceiver 8`
+`show interface transceiver summary 8`
 This shows for all Ethernet8 (8 is a shorthand).
 
 <br>
